@@ -40,7 +40,10 @@ function Car(model, year, miles){
  * syntax is Object.prototype.newMethod.
  * it is used this way to avoid redefining the property object.
 */
-Car.prototype.toString = function(){return this.model+" has done "+this.miles+"miles"};
+Car.prototype.toString = function(){return this.model+" has done "+this.miles+" miles"};
 
 var civic = new Car("H Civic", 2990, 2001222);
 var mondeo = new Car("F Mondeo", 788, 5554788);
+
+console.log(civic.toString());
+console.log(mondeo.toString());
