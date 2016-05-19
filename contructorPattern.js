@@ -26,7 +26,7 @@ console.log(makalu.toString());
 
 /****
 * Constructor with prototypes
-* If a javscript constructor is called for creating an object, the all the properties of the constructor's
+* If a javscript constructor is called for creating an object, then all the properties of the constructor's
 * prototype are available to the new object.
 * */
 
